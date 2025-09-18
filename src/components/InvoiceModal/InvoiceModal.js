@@ -730,7 +730,7 @@ export default function InvoiceModal({ isOpen, invoice, closeModal }) {
           <iframe src={pdfUrl} className="w-full h-[70vh]" />
         ) : (
           <p className="text-gray-500">
-            اضغط على "تحديث المعاينة" لرؤية الفاتورة
+            اضغط على &quot;تحديث المعاينة&quot; لرؤية الفاتورة
           </p>
         )}
       </div>
